@@ -1,0 +1,12 @@
+{
+  "name": "TensorFlowTest",
+  "displayName": "TensorFlowTest",
+  "expo": {
+    "name": "TensorFlowTest",
+    "slug": "TensorFlowTest",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
