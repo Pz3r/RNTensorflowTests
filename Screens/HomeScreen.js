@@ -1,6 +1,7 @@
 import React from 'react';
-import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity, NativeModules } from 'react-native';
 
+const { CocoVisionModule } = NativeModules;
 
 export default function HomeScreen({navigation}) {
 
@@ -16,6 +17,12 @@ export default function HomeScreen({navigation}) {
         style={styles.clickeableContainer}
         onPress={() => navigation.navigate('OnDemandClassificationScreen')}>
         <Text style={styles.clickeableText}>Clasificación "on demand"</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity 
+        style={styles.clickeableContainer}
+        onPress={() => CocoVisionModule.testModuleStatus("hello", "world") }>
+        <Text style={styles.clickeableText}>OpenCV template match</Text>
       </TouchableOpacity>
     </View>
   );
