@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/libcxx_helper/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/sampoz/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"opencv_jni_shared-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_jni_shared",
+			"buildCommand" : "/Users/sampoz/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/release/arm64-v8a --target opencv_jni_shared",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/sampoz/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/sampoz/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/libcxx_helper/dummy.cpp",
+					"workingDirectory" : "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/release/arm64-v8a/libopencv_jni_shared.a",
+			"toolchain" : "16027956484070841888"
+		}
+	},
+	"toolchains" : 
+	{
+		"16027956484070841888" : 
+		{
+			"cCompilerExecutable" : "/Users/sampoz/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/sampoz/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

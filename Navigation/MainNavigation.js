@@ -7,6 +7,7 @@ import HomeScreen from '../Screens/HomeScreen';
 import ResultScreen from '../Screens/ResultScreen';
 import LiveClassificationScreen from '../Screens/ImageClassification/LiveClassificationScreen';
 import OnDemandClassificationScreen from '../Screens/ImageClassification/OnDemandClassificationScreen';
+import TemplateMatchingScreen from '../Screens/OpenCV/TemplateMatchingScreen';
 
 export default function MainNavigation() {
 
@@ -17,7 +18,8 @@ export default function MainNavigation() {
       <Stack.Navigator>
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
         <Stack.Screen name="OnDemandClassificationScreen" component={OnDemandClassificationScreen} />
-        <Stack.Screen name="LiveClassificationScreen" component={LiveClassificationScreen} />        
+        <Stack.Screen name="LiveClassificationScreen" component={LiveClassificationScreen} />
+        <Stack.Screen name="TemplateMatchingScreen" component={TemplateMatchingScreen} />        
         <Stack.Screen name="ResultScreen" component={ResultScreen} />
       </Stack.Navigator>
     </NavigationContainer>

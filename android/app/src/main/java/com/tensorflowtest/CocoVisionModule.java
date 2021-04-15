@@ -2,6 +2,7 @@ package com.tensorflowtest;
 
 import android.util.Log;
 
+import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContext;
@@ -24,5 +25,15 @@ public class CocoVisionModule extends ReactContextBaseJavaModule {
     public void testModuleStatus(String param1, String param2) {
         Log.d("CocoVisionModule", "testModuleStatus called with param1: " + param1
                 + " and param2: " + param2);
+    }
+
+    @ReactMethod
+    public void matchWithTemplates(String base64, String templates, Callback errorCallback, Callback successCallback) {
+        Log.d("CocoVisionModule", "match image with length: " + base64.length() + " with templates: " + templates);
+        try {
+            successCallback.invoke("template1");
+        } catch (Exception e) {
+            errorCallback.invoke(e.getMessage());
+        }
     }
 }

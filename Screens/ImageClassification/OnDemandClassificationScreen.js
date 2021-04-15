@@ -76,7 +76,6 @@ export default function OnDemandClassificationScreen({ navigation }) {
     return arrayBuffer;
   }
 
-
   const imageToTensor = (rawImageData) => {
     const TO_UINT8ARRAY = true
     const { width, height, data } = jpeg.decode(rawImageData, TO_UINT8ARRAY)

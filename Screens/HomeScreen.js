@@ -21,7 +21,7 @@ export default function HomeScreen({navigation}) {
 
       <TouchableOpacity 
         style={styles.clickeableContainer}
-        onPress={() => CocoVisionModule.testModuleStatus("hello", "world") }>
+        onPress={() => navigation.navigate('TemplateMatchingScreen') }>
         <Text style={styles.clickeableText}>OpenCV template match</Text>
       </TouchableOpacity>
     </View>

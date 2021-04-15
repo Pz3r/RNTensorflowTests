@@ -1,0 +1,74 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android",
+      "sdkFolder": "/Users/sampoz/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/build/intermediates",
+      "gradleModulePathName": ":openCV",
+      "moduleRootFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV",
+      "makeFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/libcxx_helper/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/.cxx",
+      "cxxFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx",
+      "ndkFolder": "/Users/sampoz/Library/Android/sdk/ndk/21.3.6528147",
+      "ndkVersion": "21.3.6528147",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [
+      "opencv_jni_shared"
+    ]
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/debug/arm64-v8a",
+  "jsonFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cxx/debug/arm64-v8a",
+  "objFolder": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/build/intermediates/cmake/debug/obj/arm64-v8a",
+  "buildCommandFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/debug/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/debug/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/debug/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cxx/debug/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cxx/debug/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cxx/debug/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cxx/debug/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cxx/debug/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cxx/debug/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cxx/debug/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/debug/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/sampoz/Development/tests/react-native/TensorFlowTest/android/openCV/.cxx/cmake/debug/arm64-v8a/compile_commands.json"
+}

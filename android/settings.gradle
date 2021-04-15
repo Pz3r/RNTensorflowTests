@@ -1,3 +1,4 @@
+include ':openCV'
 rootProject.name = 'TensorFlowTest'
 
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
